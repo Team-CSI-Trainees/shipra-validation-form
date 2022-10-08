@@ -16,35 +16,35 @@
 <form class="form" id="form">
     <div class="form-control">
         <label>Username</label>
-        <input type="text" name="" id="username" placeholder="enter your full name">
+        <input type="text" name="" id="username" placeholder="Enter your full name" autocomplete="off">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small>      
     </div>
     <div class="form-control">
         <label>Email</label>
-        <input type="text" name="" id="email" placeholder="enter your email">
+        <input type="text" name="" id="email" placeholder="Enter your email">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
     <div class="form-control">
         <label>Phone number</label>
-        <input type="text" name="" id="phone number" placeholder="enter your phone number">
+        <input type="text" name="" id="phone number" placeholder="Enter your phone number">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
     <div class="form-control">
         <label>Password</label>
-        <input type="text" name="" id="Password" placeholder="enter your password">
+        <input type="text" name="" id="Password" placeholder="Enter your password">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
     <div class="form-control">
         <label>Confirm password</label>
-        <input type="text" name="" id="confirm password" placeholder="enter your password again">
+        <input type="text" name="" id="confirm password" placeholder="Enter your password again">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
@@ -55,11 +55,32 @@
         <label for="male">Male</label>
         <input type="radio" name="" id="female" value="Female">
         <label for="male">Female</label>
-        <input type="radio" name="" id="notsay" value="Notsay">
-        <label for="notsay">Rather Not Say</label>
-    </div> 
+    </div>  
     <input type="submit" value="Submit" class="btn" name="" >
 </form>
+</div>
+    <script type="text/javascript">
+        const form = document.getElementById('form');
+        const username = document.getElementById('form'); 
+        const email = document.getElementById('form');
+        const password = document.getElementById('form');
+        const cpassword = document.getElementById('form');
+        const gender = document.getElementById('form');
+  form.addEventListener('submit' , (event)  =>{
+     event.preventDefault();
+     validate();
+  }
+
+
+    </script>
+      
+
+
+
+
+
+
+
 <body>
     
 </body>
