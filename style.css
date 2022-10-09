@@ -29,10 +29,12 @@ body{
     overflow: hidden;
     width: calc(100vw - 65vw);
     max-width: 100%;
+    
 } 
 .header{
     background: var(--lg-color);
     padding: 30px 0;
+    margin-top: 15px;
 }
 .header h2 {
     color: #222;
