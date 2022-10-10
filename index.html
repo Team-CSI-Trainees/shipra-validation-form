@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation form</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <div class="container">
@@ -30,59 +32,34 @@
     </div>
     <div class="form-control">
         <label>Phone number</label>
-        <input type="text" name="" id="phone number" placeholder="Enter your phone number">
+        <input type="text" name="" id="phone" placeholder="Enter your phone number">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
     <div class="form-control">
         <label>Password</label>
-        <input type="text" name="" id="Password" placeholder="Enter your password">
+        <input type="text" name="" id="password" placeholder="Enter your password">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
     <div class="form-control">
         <label>Confirm password</label>
-        <input type="text" name="" id="confirm password" placeholder="Enter your password again">
+        <input type="text" name="" id="cpassword" placeholder="Enter your password again">
         <i><i class="fa-solid fa-circle-check"></i></i>
         <i class="fa-solid fa-circle-exclamation"></i>
         <small>Error Msg</small> 
     </div>
-     <div class="form-control"> 
+     <!-- <div class="form-control"> 
         <label>Gender</label>
         <input type="radio" name="" id="male" value="Male">
         <label for="male">Male</label>
         <input type="radio" name="" id="female" value="Female">
         <label for="male">Female</label>
-    </div>  
+    </div>   -->
     <input type="submit" value="Submit" class="btn" name="" >
 </form>
 </div>
-    <script type="text/javascript">
-        const form = document.getElementById('form');
-        const username = document.getElementById('form'); 
-        const email = document.getElementById('form');
-        const password = document.getElementById('form');
-        const cpassword = document.getElementById('form');
-        const gender = document.getElementById('form');
-
-  form.addEventListener('submit' , (event)  =>{
-     event.preventDefault();
-     validate();
-  }
-   const 
-
-    </script>
-      
-
-
-
-
-
-
-
-<body>
-    
 </body>
 </html>
