@@ -86,16 +86,7 @@ body{
         color: #e74c3c;
         visibility: visible;}
 
-     .form-control.error small{
-            visibility: visible;
-        }
-    .form-control small {
-            color: #e74c3c;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            visibility: hidden;
-        }
+     
         .form-control small{
             color:#e74c3c;
             position: absolute;
@@ -104,7 +95,7 @@ body{
             visibility: hidden;
         }
         .form-control .error small{
-            visibility: hidden;
+            visibility: visible;
         }
 .form .btn {
     background: var(--lg-color);
@@ -127,7 +118,7 @@ body{
   }
   @media(max-width: 998px){
     .container{
-        width: calc(100uw- 35vw);
+        width: calc(100vw- 35vw);
         max-width: 100%;
     }
   } 

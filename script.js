@@ -28,6 +28,8 @@ const cpasswordVal= cpassword.value.trim();
     setSuccessMsg(username);
    }
 
+
+
    if(emailVal === "" ) {
    setErrorMsg(email, 'email cannot be blank');
    } 
@@ -35,6 +37,8 @@ const cpasswordVal= cpassword.value.trim();
    else{
     setSuccessMsg(email);
    }
+
+   
 
    if(phoneVal === ""){
     setErrorMsg(phone, "phonenumber cannot be blank");
@@ -45,13 +49,16 @@ else {
     setSuccessMsg(phone);
    }
 
+
    if(password === ""){
     setErrorMsg(password,"password cannot be blank");
    } else if (cpasswordVal.length <= 5){
     setErrorMsg(password,"Minimum 6 char");
    } else{
-    setSuccessMsg(password)
+    setSuccessMsg(password);
   }
+
+
   if(cpassword === "" ){
     setErrorMsg(cpassword, 'confirm password cannot be blank');
     }    else if (password != cpasswordVal){
@@ -60,6 +67,10 @@ else {
     else{
      setSuccessMsg(cpassword);
     }
+
+
+
+
   }
   function setErrorMsg( input , errormsgs){
     const formControl = input.parentElemenet;
