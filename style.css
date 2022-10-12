@@ -8,10 +8,10 @@
     --myfont: 'Mulish', sans-serif;
     --my-btn-font: 'Monstserrat' , sans-serif;
     --lg-lightcolor: linear-gradient(to left, rgba(116,235,213,0.6) , rgba(159,172,230,0));
-    --lg-color:linear-gradient(to left, #74ebd5 , #9face6);
+    --lg-color:linear-gradient(to left, #92c2e0 , #e0cd9d);
 }
 body{
-     background-image: var(--lg-lightcolor), url('https://kinneygroup.com/wp-content/uploads/2019/10/fw-bg-gradient.png');  
+     background-image: url('https://media.istockphoto.com/photos/human-figure-icon-graphic-as-user-login-button-on-white-keyboard-picture-id1226883131?b=1&k=20&m=1226883131&s=170667a&w=0&h=FMYb1DFOYbcb2vmbzZhq71k-4cuarJ1U4xCBWjGnze8=');  
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: var(--myfont);
@@ -22,7 +22,7 @@ body{
     width: 100vw;
 }
 .container{
-    background-color:#d0faf3;
+    background-color: rgba(211, 181, 172, 0.301);
     border-radius: 8px;
     -webkit-border-radius: 10px;
     box-shadow: 0 2.8px 2.2px rgba(0,0,0,0.034), 0 6.7px 5.3px rgba(0,0,0,0.048) , 0 12;
@@ -33,7 +33,7 @@ body{
 .header{
     background: var(--lg-color);
     padding: 30px 0;
-    margin-top: 15pxhh;
+    margin-top: 15px;
 }
 .header h2 {
     color: #222;
@@ -62,7 +62,7 @@ body{
         font-size: 14px;
         padding: 12px;
     } 
-     .form-control input :focus{
+     .form-control input:focus{
         outline: 0;
         border-color: #777;
      }
@@ -114,7 +114,7 @@ body{
     transition: all 1s ease;
 }
   .form .btn:hover {
-    background: linear-gradient(to right , #74ebd5, #9face6);
+    background: linear-gradient(to right , #92c2e0, #e0cd9d);
   }
   @media(max-width: 998px){
     .container{
